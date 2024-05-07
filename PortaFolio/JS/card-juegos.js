@@ -5,7 +5,7 @@ const data = [
         text: "Es un juego donde tienes que sobrevivir a oleadas de enemigos.",
         listItems: ["Rol", "Programador","Modelador"],
         images: ["/IMG/unity.png", "/IMG/hola.png","/IMG/blender.png"],
-        videoSrc: "/VIDEOS/SurviveSpace.mp4"
+        videoSrc: "https://www.youtube.com/watch?v=xTl--yWvKM8"
     },
     
     {
@@ -13,7 +13,7 @@ const data = [
         text: "Es un juego multijugador donde tienes que superar varios obstáculos para llegar a la meta.",
         listItems: ["Rol", "Programador"],
         images: ["/IMG/unity.png", "/IMG/hola.png"],
-        videoSrc: "/VIDEOS/Stumblefood.mp4" 
+        videoSrc: "https://www.youtube.com/watch?v=7tCRn1Tm61A" 
     }
     
 ];
@@ -53,9 +53,12 @@ function createCard(info) {
         cardContainerDiv.appendChild(image);
     });
 
-    const video = document.createElement("video");
-    video.src = info.videoSrc;
-    video.controls = true;
+    const video = document.createElement("iframe");
+    video.src = info.videoSrc.replace("watch?v=", "embed/");
+    video.width = "560";
+    video.height = "315";
+    video.frameborder = "0";
+    video.allowfullscreen = true;
     
     card.appendChild(cardContainerDiv);
     card.appendChild(video);
