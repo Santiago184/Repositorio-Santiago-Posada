@@ -1,0 +1,80 @@
+/* Estilos de la tarjeta */
+.card {
+    display: flex; /* Mostrar tarjetas en línea */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.718);
+    overflow: hidden;
+    margin: 20px;
+}
+
+/* Estilos del contenedor de la tarjeta */
+.card-container {
+    flex: 1; /* Crecer para llenar el espacio disponible */
+    padding: 20px;
+}
+
+/* Estilos del título de la tarjeta */
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos del texto de la tarjeta */
+.card-text {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Estilos de la lista de la tarjeta */
+.card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del elemento de lista de la tarjeta */
+.card li {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Estilos de las imágenes de la tarjeta */
+.card img {
+    width: 10%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilos del video de la tarjeta */
+.card video {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ffffff;
+}
+/* galleria */
+
+
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+}
+
+.gallery-image {
+    width: 100px;
+    height: auto; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    
+}
+.gallery-image:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el cursor */
+}

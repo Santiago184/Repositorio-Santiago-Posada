@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1e1ecd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/IMG/fondo3.jpg");
+    
+}
+h2,h3,p,li{
+    color: rgb(255, 240, 240);
+    font-size: 20px;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    padding: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.203);
+}
+.foto-perfil,.contacto{
+    flex: 1;
+    text-align: center;
+}
+.foto{
+    border-radius: 40%;
+}
+.contacto,p{
+    justify-content: start;
+    padding-top: 10px;
+}
+.contacto{
+    text-align: justify;
+    margin-left: 15%;
+}

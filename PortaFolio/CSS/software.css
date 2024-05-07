@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e1e1ecd;
+/*     border: solid 2px;*/
+    /*border-color:rgba(255, 255, 255, 0.9);*/ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 180px;
+    background-image: url("/IMG/fondo3.jpg");
+}
+h2,h3,p,li{
+    color: rgb(255, 240, 240);
+    font-size: 20px;
+
+
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-info {
+    padding: 20px;
+}
+
+.card-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card-info p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.logos-container {
+    margin-top: 10px;
+}
+
+.logos-container img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.card-info a {
+    display: block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-info a:hover {
+    text-decoration: underline;
+}
+
