@@ -49,8 +49,8 @@
 }
 
 /* Estilos del video de la tarjeta */
-.card video {
-    width: 45%;
+.card iframe {
+    width: 40%;
     height: auto;
     margin: 10px;
     border: 2px solid #ffffff;
