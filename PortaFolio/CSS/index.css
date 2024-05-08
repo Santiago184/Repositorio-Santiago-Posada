@@ -7,7 +7,7 @@ body{
     background-color: #1e1e1ecd;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/IMG/fondo3.jpg");
+    background-image: url("../IMG/fondo3.jpg");
 }
 /* letra */
 h2,h3,p,li{
